@@ -1,4 +1,4 @@
-exports.run = function(input) {
+exports.run = function (input) {
     var test = input.toUpperCase();
-  return test;
+    return test;
 };
