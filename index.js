@@ -1,6 +1,6 @@
 const chalk = require("chalk");
 
-const numExercise = process.argv[2] || 4;
+const numExercise = process.argv[2] || 5;
 
 const inputs = [
   "it sounds good !",
