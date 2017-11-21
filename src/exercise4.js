@@ -1,9 +1,11 @@
 exports.run = function(input) {
-  console.log("Exercise #4");
-
-  // YOUR CODE IS WELCOME HERE
-
-  /** STRICTLY FORBIDDEN TO CHANGE THIS CODE */
+  var repeat=function (chiffre,txt)
+  {
+      var result=txt;
+      for(var a=1; a<chiffre; a++)
+        result+=`, ${txt}`;
+      return result;
+  }
   return input(3, "Beetlejuice", repeat);
   /** */
 };
